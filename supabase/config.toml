@@ -1,0 +1,12 @@
+project_id = "battle-events"
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+[db]
+port = 54322
+major_version = 17
+[auth]
+enabled = true
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["http://localhost:3000/login"]
